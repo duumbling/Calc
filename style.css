@@ -99,3 +99,31 @@ body {
   box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.262);
   scale: .96;
 }
+
+@media (max-width:500px) {
+
+  .calc-body {
+    height: 520px;
+    gap: 10px;
+  }
+
+  .calc-specials {
+    gap: 5px;
+  }
+
+  .calc-keyboard {
+
+    gap: 5px;
+  }
+
+  .calc-keyboard div,
+  .calc-specials div {
+    scale: .7
+  }
+
+  .calc-btn:active,
+  .calc-maths:active {
+
+    scale: .86;
+  }
+}
