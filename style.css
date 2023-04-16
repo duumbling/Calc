@@ -124,7 +124,7 @@ body {
   scale: .96;
 }
 
-@media (max-width:350px) {
+@media (max-width:400px) {
   body {
 
     padding: 0px;
