@@ -124,7 +124,7 @@ body {
   scale: .96;
 }
 
-@media (max-width:450px) {
+@media (max-width:500px) {
   body {
     background-color: black;
     padding: 0px;
@@ -138,7 +138,7 @@ body {
 
   .calc-display {
     height: 300px;
-    margin-bottom: 70px;
+    margin-bottom: -100px;
     background-color: #000000;
   }
 
@@ -154,6 +154,7 @@ body {
   }
 
   .calc-keyboard {
+    padding-top: 300px;
     flex-direction: column;
     position: relative;
     color: #fff;
@@ -172,6 +173,7 @@ body {
     color: #fff;
     border: none;
     box-shadow: none;
+
   }
 
   .calc-math-block {
@@ -189,27 +191,27 @@ body {
   }
 
   .remove {
-    top: -15px;
+    top: 285px;
     left: 10px;
   }
 
   .proc {
-    top: -15px;
+    top: 285px;
     left: 85px;
   }
 
   .dot {
-    top: -15px;
+    top: 285px;
     left: 160px;
   }
 
   .divid {
-    top: -15px;
+    top: 285px;
     left: 235px;
   }
 
   .mult {
-    top: 60px;
+    top: 360px;
     left: 235px;
     font-size: 70px;
     padding-bottom: 15px;
@@ -218,7 +220,7 @@ body {
   }
 
   .minus {
-    top: 135px;
+    top: 435px;
     left: 235px;
     font-size: 50px;
     font-weight: 100;
@@ -226,7 +228,7 @@ body {
   }
 
   .plus {
-    top: 210px;
+    top: 510px;
     left: 235px;
     font-size: 50px;
     font-weight: 100;
